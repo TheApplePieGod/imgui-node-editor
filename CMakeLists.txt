@@ -4,7 +4,7 @@ project(imgui-node-editor)
 
 option(IMGUI_NODE_EDITOR_IMGUI_INCLUDE_DIR "Include directory for ImGui" "OFF")
 
-if (IMGUI_NODE_EDITOR_IMGUI_INCLUDE_DIR "OFF")
+if (IMGUI_NODE_EDITOR_IMGUI_INCLUDE_DIR STREQUAL "OFF")
   message(FATAL_ERROR "imgui_node_editor requires imgui directory to be set")
 endif()
 
