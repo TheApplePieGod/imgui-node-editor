@@ -19,5 +19,5 @@ target_include_directories(
   imgui-node-editor
   PUBLIC
   "$<BUILD_INTERFACE:./"
-  "$<BUILD_INTERFACE:${(IMGUI_NODE_EDITOR_IMGUI_INCLUDE_DIR}>"
+  "$<BUILD_INTERFACE:${IMGUI_NODE_EDITOR_IMGUI_INCLUDE_DIR}>"
 )
